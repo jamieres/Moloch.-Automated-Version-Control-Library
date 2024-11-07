@@ -1,0 +1,25 @@
+{
+    "versioning": {
+        "major_criteria": [
+            "API change",
+            "New Feature"
+        ],
+        "minor_criteria": [
+            "Enhancement",
+            "Fix"
+        ],
+        "names_theme": "demons",
+        "visibility": {
+            "public": [
+                "Enhancement"
+            ],
+            "confidential": [
+                "API change",
+                "Fix"
+            ],
+            "secret": [
+                "New Feature"
+            ]
+        }
+    }
+}
