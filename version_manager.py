@@ -1,12 +1,6 @@
-
 from name_generator import NameGenerator
 
 class VersionManager:
-    """
-    VersionManager es responsable de generar el número de versión en formato semántico (major.minor.patch)
-    basado en el tipo de cambio realizado. Integra el NameGenerator para formar el identificador completo.
-    """
-
     def __init__(self):
         self.major = 0
         self.minor = 0
@@ -14,11 +8,6 @@ class VersionManager:
         self.name_generator = NameGenerator()
 
     def update_version(self, change_type):
-        """
-        Actualiza el número de versión según el tipo de cambio.
-        :param change_type: Tipo de cambio ("major", "minor", "patch").
-        :return: Versión en formato "vX.Y.Z" y nombre temático.
-        """
         if change_type == "major":
             self.major += 1
             self.minor = 0
