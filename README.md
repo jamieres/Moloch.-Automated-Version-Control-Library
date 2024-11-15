@@ -16,6 +16,12 @@ version_major = vcs.create_version_identifier("major")
 version_minor = vcs.create_version_identifier("minor")
 version_patch = vcs.create_version_identifier("patch")
 ```
+##Usage
+Just copy the files in your project folder or install it via pip using the .whl file ("src" folder):
+
+```
+pip install path/to/moloch_versioning-0.1-py3-none-any.whl
+```
 
 ## License
 
