@@ -48,7 +48,7 @@ pip install path/to/moloch_versioning-0.1-py3-none-any.whl
 	from moloch_versioning import VersionControlSystem
 	```
 
-3. Instalar desde PyPI (Remoto).
+3. Install from PyPI (Remote).
 ```
 pip install moloch_versioning
 ```
